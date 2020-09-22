@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0921339D251A6FDD00696BB8 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B76DBA251A6C0000E22E2C /* NetworkLayer.swift */; };
 		0921339F251A721100696BB8 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0921339E251A721000696BB8 /* ContentViewModel.swift */; };
+		092133A1251A897900696BB8 /* ContentViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092133A0251A897900696BB8 /* ContentViewModelTests.swift */; };
 		09B76D94251A6B4F00E22E2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B76D93251A6B4F00E22E2C /* AppDelegate.swift */; };
 		09B76D96251A6B4F00E22E2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B76D95251A6B4F00E22E2C /* SceneDelegate.swift */; };
 		09B76D98251A6B4F00E22E2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B76D97251A6B4F00E22E2C /* ContentView.swift */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		0921339E251A721000696BB8 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		092133A0251A897900696BB8 /* ContentViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModelTests.swift; sourceTree = "<group>"; };
 		09B76D90251A6B4F00E22E2C /* FetchReward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchReward.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B76D93251A6B4F00E22E2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09B76D95251A6B4F00E22E2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 			children = (
 				09B76DAA251A6B5600E22E2C /* FetchRewardTests.swift */,
 				09B76DAC251A6B5600E22E2C /* Info.plist */,
+				092133A0251A897900696BB8 /* ContentViewModelTests.swift */,
 			);
 			path = FetchRewardTests;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092133A1251A897900696BB8 /* ContentViewModelTests.swift in Sources */,
 				09B76DAB251A6B5600E22E2C /* FetchRewardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

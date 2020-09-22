@@ -27,6 +27,7 @@ class FetchRewardTests: XCTestCase {
             switch result {
             case .success( let result):
                 XCTAssertFalse(result.isEmpty)
+                XCTAssertFalse(result.isEmpty)
                 exp.fulfill()
             case .failure(_):
                 XCTFail("error downloading data")

@@ -28,8 +28,4 @@ class ContentViewModel: ObservableObject {
             }
         })
     }
-    
-    private func itemsGrouped() {
-        
-    }
 }
