@@ -1,9 +1,10 @@
 # FetchRewards
+
 Fetch Rewards Coding Exercise - Software Engineering - Mobile
 
-[ x ] - Display all the items grouped by "listId"
-[ x ] - Sort the results first by "listId" then by "name" when displaying.
-[ x ] - Filter out any items where "name" is blank or null.
+- [x] Display all the items grouped by "listId"
+- [x] - Sort the results first by "listId" then by "name" when displaying.
+- [x] - Filter out any items where "name" is blank or null.
 
 Also added testing on the endpoint 'GET'
 
